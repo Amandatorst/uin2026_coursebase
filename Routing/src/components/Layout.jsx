@@ -1,5 +1,7 @@
 // Importerer Link fra react-router-dom
 // Link brukes for navigasjon uten at siden lastes på nytt
+import { useEffect } from 'react'
+import { useState } from 'react'
 import { Link } from 'react-router-dom'
 
 // Layout tar imot children som prop
